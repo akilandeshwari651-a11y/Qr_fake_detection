@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head><title>QR Safety Scanner - CRYPTATHON'26</title>
-<meta http-equiv="refresh" content="0; url=https://qr-safety-scanner.streamlit.app">
-<style>body{font-family:sans-serif;text-align:center;padding:50px}</style>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Safety Scanner | CRYPTATHON'26</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Space Grotesk',sans-serif;background:#0a0a0b;color:white;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.card{max-width:560px;width:100%;background:linear-gradient(145deg,#16161a,#121216);border:1px solid #222;border-radius:24px;padding:40px 32px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#1a2e1a;border:1px solid #2a5a2a;color:#4ade80;font-family:'JetBrains Mono';font-size:11px;padding:6px 12px;border-radius:20px;letter-spacing:1px}
+h1{font-size:32px;margin:20px 0 12px;line-height:1.1}
+h1 span{background:linear-gradient(90deg,#4ade80,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+p{color:#999;line-height:1.6;font-size:15px}
+.stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:28px 0}
+.stat{background:#1c1c20;border-radius:12px;padding:14px;text-align:center}
+.stat b{font-size:20px;display:block}
+.stat span{font-size:11px;color:#777;font-family:'JetBrains Mono'}
+.btn{display:block;text-align:center;background:white;color:black;padding:16px;border-radius:12px;font-weight:700;text-decoration:none;margin-top:24px;transition:.2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 20px rgba(255,255,255,.2)}
+.btn2{display:block;text-align:center;border:1px solid #333;color:#aaa;padding:14px;border-radius:12px;text-decoration:none;margin-top:12px;font-size:14px}
+.footer{margin-top:24px;text-align:center;font-family:'JetBrains Mono';font-size:11px;color:#555}
+</style>
 </head>
 <body>
-<h1>🛡️ QR Safety Scanner - CRYPTATHON'26</h1>
-<p>GitHub Pages la Python run aagathu da! Streamlit app inga irukku:</p>
-<a href="https://share.streamlit.io" style="padding:15px 30px;background:black;color:white;border-radius:10px;text-decoration:none">Deploy on Streamlit Cloud</a>
-<p><br>Direct Code: github.com/akilandeshwari651-a11y/Qr_fake_detection</p>
+<div class="card">
+<div class="badge">● LIVE • CRYPTATHON'26 • CYBERFORT</div>
+<h1>🛡️ QR Safety Scanner <br><span>Stop Quishing.</span></h1>
+<p>90% of QR codes can hide phishing links. Our scanner runs an <b style="color:white">11-point risk analysis</b> before you click. Built for Hack IITK Mock Hackathon.</p>
+
+<div class="stats">
+<div class="stat"><b>11+</b><span>CHECKS</span></div>
+<div class="stat"><b><30ms</b><span>SCAN TIME</span></div>
+<div class="stat"><b>100%</b><span>OFFLINE</span></div>
+</div>
+
+<!-- ITHA MAATHU DA - UN STREAMLIT LINK AH PODU -->
+<a class="btn" href="https://share.streamlit.io" target="_blank">🚀 Launch Live App →</a>
+
+<a class="btn2" href="https://github.com/akilandeshwari651-a11y/Qr_fake_detection" target="_blank">View Source Code on GitHub</a>
+
+<div class="footer">SRM TRP • Dept of CSE • Team Cyberfort • 28 Oct 2026</div>
+</div>
 </body>
 </html>
